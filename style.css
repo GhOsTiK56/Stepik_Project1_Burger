@@ -1,7 +1,49 @@
-a{
-    color:green;
-    text-decoration:none;
-  }
-  a:hover{
-    color:red;
-  }
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0 auto;
+  height: 100%;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 43px;
+  color: black;
+  background: white;
+}
+
+.page_header{
+  width: 1900px;
+  min-height: 900px;
+background-image: linear-gradient(180deg, #EDA418 47.5%, rgba(237, 164, 24, 0) 100%);
+}
+
+.navigation{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 70px;
+  padding-top: 105px;
+  padding-right: 65px;
+}
+
+.logo{
+  display: block;
+  margin-top: 8px;
+}
+
+.navigation_list{
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+margin:auto 0;
+padding: 0;
+margin-left: 149px;
+list-style: none;
+}
